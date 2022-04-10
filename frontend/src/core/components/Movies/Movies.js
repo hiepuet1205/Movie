@@ -12,19 +12,6 @@ const Movies = props => {
                 {movies.map(movie => 
                     <MovieCard movie={movie}/>
                 )}
-                {/* TODO: delete */}
-                {movies.map(movie => 
-                    <MovieCard movie={movie}/>
-                )}
-                {movies.map(movie => 
-                    <MovieCard movie={movie}/>
-                )}
-                {movies.map(movie => 
-                    <MovieCard movie={movie}/>
-                )}
-                {movies.map(movie => 
-                    <MovieCard movie={movie}/>
-                )}
             </div>
         </section>
     )

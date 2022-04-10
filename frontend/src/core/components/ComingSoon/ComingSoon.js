@@ -47,27 +47,6 @@ const ComingSoon = props => {
                         <MovieCard movie={movie}/>
                     </SwiperSlide>
                 )}
-                {/* TODO: delete */}
-                {movies.map(movie => 
-                    <SwiperSlide>
-                        <MovieCard movie={movie}/>
-                    </SwiperSlide>
-                )}
-                {movies.map(movie => 
-                    <SwiperSlide>
-                        <MovieCard movie={movie}/>
-                    </SwiperSlide>
-                )}
-                {movies.map(movie => 
-                    <SwiperSlide>
-                        <MovieCard movie={movie}/>
-                    </SwiperSlide>
-                )}
-                {movies.map(movie => 
-                    <SwiperSlide>
-                        <MovieCard movie={movie}/>
-                    </SwiperSlide>
-                )}
             </Swiper>
         </section>
     )
