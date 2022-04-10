@@ -1,0 +1,22 @@
+.movie_details div{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+.movie_details h4{
+    margin-right: 30px;
+}
+
+.movie_details a{
+    margin-right: 20px;
+    color: #4e91e6;
+}
+
+/* responsive */
+
+@media (max-width: 370px) {
+    .movie_details div{
+        flex-direction: column;
+    } 
+}

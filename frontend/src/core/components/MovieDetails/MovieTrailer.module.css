@@ -1,0 +1,35 @@
+/* movie trailer */
+.movie_trailer{
+    width: 100%;
+    display: flex;
+    margin: 50px 0;
+}
+
+.movie_trailer_img{
+    width: 25%!important;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.movie_trailer_video{
+    width: 100%;
+    border: 1px solid #3b3b3b;
+}
+
+.movie_trailer_video video{
+    width: 100%!important;
+    height: 100%!important;
+    object-fit: cover;
+}
+
+/* responsive */
+
+@media (max-width: 774px) {
+    .movie_trailer_img{
+        display: none;
+    }
+
+    .movie_trailer{
+        margin: 20px 0;
+    }
+}

@@ -1,0 +1,22 @@
+.notification{
+    margin: 20px 30px;
+}
+
+.notification p{
+    padding: 10px 15px;
+}
+
+.notification .error{
+    color: #ff2c1f;
+    border: 2px solid #ff2c1f;
+}
+
+.notification .success{
+    color: #02a2b9;
+    border: 2px solid #02a2b9;
+}
+
+.notification .success a{
+    color: #ff2c1f;
+}
+

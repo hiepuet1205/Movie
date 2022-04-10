@@ -1,0 +1,49 @@
+.account{
+    margin-top: 5rem!important;
+}
+
+.account_container{
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.account_info{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.account_info_img{
+    width: 25%;
+    height: auto;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.account_info_details{
+    width: 100%;
+}
+
+.account_info_details div{
+    padding: 20px 0;
+    border-bottom: 1px solid #3b3b3b;
+}
+
+@media (max-width: 774px) {
+    .account_info{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .account_info_img{
+        width: 60%;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 472px) {
+    .account_info_img{
+        width: 70%;
+    }
+}

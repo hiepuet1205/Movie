@@ -1,0 +1,100 @@
+.logo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    padding-left: 30px;
+}
+
+.logo_bx{
+    font-size: 24px;
+    color: #ff2c1f;
+}
+
+.sign_up{
+    position: fixed;
+    height: 100%;
+    top: 0;
+    right: 0;
+    width: 400px;
+    background: rgb(2, 3, 7, 0.4);
+    padding: 50px 0;
+    overflow-y: scroll;
+}
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.form_group label{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.form_group input{
+    padding: 10px 20px;
+}
+
+.form_group input:focus {
+    outline: none;
+}
+
+.form_group p{
+    font-size: 1rem;
+    color: #ff2c1f;
+    font-weight: normal;
+    font-style: italic;
+    padding-top: 10px;
+}
+
+.form_actions{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.btn {
+    padding: 0.7rem 1.4rem;
+    background: #ff2c1f;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.btn:hover{
+    background: #fa1216;
+}
+
+
+.sign_in{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.sign_in a{
+    color: #fa1216;
+}
+
+.invalid input {
+    border: 1px solid #b40e0e;
+    background-color: #fddddd;
+}
+  
+.invalid input:focus {
+    border-color: #ff8800;
+    background-color: #fbe8d2;
+}
+
+.error_text {
+    color: #b40e0e;
+}

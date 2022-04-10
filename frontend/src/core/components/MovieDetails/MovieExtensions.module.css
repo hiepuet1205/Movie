@@ -1,0 +1,50 @@
+/* movie_extensions */
+
+.movie_extensions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movie_extensions button{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+.movie_extensions button:hover{
+    color: #020307;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.movie_extensions_category{
+    margin-bottom: 20px;
+}
+
+.movie_extensions_book{
+    margin-bottom: 20px;
+}
+
+.movie_extensions_book button{
+    color: #ff2c1f;
+    border-color: #ff2c1f;
+    background-color: transparent;
+}
+
+.movie_extensions_book button:hover{
+    color: #fff;
+    background-color: #fa1216;
+    border-color: #fa1216;
+}
+
+/* responsive */
+@media (max-width: 774px) {
+    .movie_extensions{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,194 @@
+/* header */
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    transition: 0.5s;
+}
+
+.shadow {
+    background: #fff;
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
+
+.shadow .logo{
+    color: #020307;
+}
+
+.shadow .navbar a{
+    color: #020307;
+}
+
+.logo{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+
+.logo .bx{
+    font-size: 24px;
+    color: #ff2c1f;
+}
+
+.navbar{
+    display: flex;
+    column-gap: 5rem;
+}
+
+.navbar li{
+    position: relative;
+}
+
+.navbar li a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+.navbar li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ff2c1f;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    transition: 0.4s all linear;
+}
+
+.navbar li a:hover::after,
+.navbar .active::after{
+    width: 100%;
+}
+
+.menu_icon{
+    display: none;
+    cursor: pointer;
+    z-index: 1001;
+    font-size: 24px;
+}
+
+.shadow .menu_icon{
+    color: #020307;
+}
+
+.btn {
+    padding: 0.7rem 1.4rem;
+    background: #ff2c1f;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    background: #fa1216;
+}
+
+.navbar_account{
+    position: absolute;
+    top: 80%;
+    right: 100px;
+    display: none;
+    flex-direction: column;
+    background: #fff;
+    row-gap: 1.4rem;
+    padding: 20px;
+    box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
+    border-radius: 20px;
+    transition: 0.5s all linear;
+    text-align: center;
+    z-index: 1;
+}
+
+.navbar_account a{
+    color: #020307
+}
+
+.navbar_account_active{
+    display: flex;
+}
+
+@media (max-width: 991px) {
+    header{
+        padding: 18px 4%;
+    }
+
+    .navbar_account{
+        right: 4%;
+    }
+}
+
+@media (max-width: 774px) {
+    header{
+        padding: 12px 4%;
+    }
+
+    .menu_icon{
+        display: initial;
+        color: #fff;
+    }
+
+    .navbar{
+        position: absolute;
+        top: -1000%;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        row-gap: 1.4rem;
+        padding: 20px;
+        box-shadow: 4px 4px 0 4px rgb(14 55 54 / 15%);
+        transition: 0.2s all linear;
+        text-align: center;
+    }
+
+    .navbar.active{
+        top: 100%;
+    }
+
+    .navbar a{
+        color: #020307 !important;
+    }
+
+    .navbar a:hover{
+        color: #ff2c1f !important;
+    }
+
+    .navbar a::after{
+        display: none !important;
+    }
+
+    .btn{
+        padding: 0.6rem 1.2rem;
+    }
+
+    .navbar_account{
+        top: 90%;
+        right: 4%;
+    }
+}
+
+@media (max-width: 370px) {
+    header {
+        padding: 6px 4%;
+    }
+
+    .navbar_account{
+        top: 90%;
+        right: 4%;
+    }
+}
