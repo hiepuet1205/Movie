@@ -18,8 +18,12 @@ const MovieExtensions = props => {
 
         if(typeof window.localStorage !== 'undefined'){
             for (const key in movie.category) {
-                const category_id = movie.category[key].slice(-2,-1)
-                cs.push(JSON.parse(localStorage.getItem('categorys/' + category_id)))
+                if(localStorage.getItem(movie.category[key])){
+                    cs.push(JSON.parse(localStorage.getItem(movie.category[key])))
+                }else{
+                    cs = null
+                    break
+                }
             }
 
             setCategorys(cs)
@@ -55,7 +59,7 @@ const MovieExtensions = props => {
         <Fragment>
             <div className={classes.movie_extensions}>
                 <div className={classes.movie_extensions_category}>
-                    {categorys.map((category) => <button href="#">{category.name}</button>)}
+                    {categorys && categorys.map((category) => <button href="#">{category.name}</button>)}
                 </div>
                 <div className={classes.movie_extensions_book}>
                     <button onClick={addMovieToCart}>Book Now</button>

@@ -26,7 +26,7 @@ const MovieCard = (props) => {
                     setCategory(data[0])
                     if(typeof window.localStorage !== 'undefined'){
                         for(var key in data){
-                            localStorage.setItem('categorys/' + data[key].id, JSON.stringify(data[key]))
+                            localStorage.setItem('http://localhost:8000/api/category/' + data[key].id + '/', JSON.stringify(data[key]))
                         }
                     }
                 }

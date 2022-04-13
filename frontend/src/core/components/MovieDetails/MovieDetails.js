@@ -12,13 +12,15 @@ const MovieDetails = props => {
     const [writers, setWriters] = useState([])
 
     const loadedDirectors = () => {
-        const director_id = movie.director.slice(-2,-1)
-
         let d
 
         if(typeof window.localStorage !== 'undefined'){
-            d = JSON.parse(localStorage.getItem('persons/' + director_id))
-            setDirector(d)
+            if(localStorage.getItem(movie.director)){
+                d = JSON.parse(localStorage.getItem(movie.director))
+                setDirector(d)
+            }else{
+                d = null
+            }
         }
 
         if(!d){
@@ -27,13 +29,13 @@ const MovieDetails = props => {
                 if(data.error){
                     console.error(data.error)
                 }else{
-                    d = data.find(person => person.id === director_id)
-                    setDirector(d)
                     if(typeof window.localStorage !== 'undefined'){
                         for(var key in data){
-                            localStorage.setItem('persons/' + data[key].id, JSON.stringify(data[key]))
+                            localStorage.setItem('http://localhost:8000/api/person/' + data[key].id + '/', JSON.stringify(data[key]))
                         }
                     }
+                    d = JSON.parse(localStorage.getItem(movie.director))
+                    setDirector(d)
                 }
             })
         }
@@ -45,8 +47,12 @@ const MovieDetails = props => {
 
         if(typeof window.localStorage !== 'undefined'){
             for (const key in movie.stars) {
-                const star_id = movie.stars[key].slice(-2,-1)
-                s.push(JSON.parse(localStorage.getItem('persons/' + star_id)))
+                if(localStorage.getItem(movie.stars[key])){
+                    s.push(JSON.parse(localStorage.getItem(movie.stars[key])))
+                }else{
+                    s = []
+                    break
+                }
             }
 
             setStars(s)
@@ -58,16 +64,15 @@ const MovieDetails = props => {
                 if(data.error){
                     console.error(data.error)
                 }else{
-                    for (const key in movie.stars) {
-                        const star_id = movie.stars[key].slice(-2,-1)
-                        s.push(data.find(person => person.id === star_id))
-                    }
-                    setStars(s)
                     if(typeof window.localStorage !== 'undefined'){
                         for(var key in data){
-                            localStorage.setItem('persons/' + data[key].id, JSON.stringify(data[key]))
+                            localStorage.setItem('http://localhost:8000/api/person/' + data[key].id + '/', JSON.stringify(data[key]))
                         }
                     }
+                    for (const key in movie.stars) {
+                        s.push(JSON.parse(localStorage.getItem(movie.stars[key])))
+                    }
+                    setStars(s)
                 }
             })
         }
@@ -78,9 +83,13 @@ const MovieDetails = props => {
         let w = []
 
         if(typeof window.localStorage !== 'undefined'){
-            for (const key in movie.stars) {
-                const writer_id = movie.writers[key].slice(-2,-1)
-                w.push(JSON.parse(localStorage.getItem('persons/' + writer_id)))
+            for (const key in movie.writers) {
+                if(localStorage.getItem(movie.writers[key])){
+                    w.push(JSON.parse(localStorage.getItem(movie.writers[key])))
+                }else{
+                    w = []
+                    break
+                }
             }
 
             setWriters(w)
@@ -92,16 +101,15 @@ const MovieDetails = props => {
                 if(data.error){
                     console.error(data.error)
                 }else{
-                    for (const key in movie.writers) {
-                        const writer_id = movie.writers[key].slice(-2,-1)
-                        w.push(data.find(person => person.id === writer_id))
-                    }
-                    setWriters(w)
                     if(typeof window.localStorage !== 'undefined'){
                         for(var key in data){
-                            localStorage.setItem('persons/' + data[key].id, JSON.stringify(data[key]))
+                            localStorage.setItem('http://localhost:8000/api/person/' + data[key].id + '/', JSON.stringify(data[key]))
                         }
                     }
+                    for (const key in movie.writers) {
+                        w.push(JSON.parse(localStorage.getItem(movie.writers[key])))
+                    }
+                    setWriters(w)
                 }
             })
         }
