@@ -1,0 +1,33 @@
+.all_movie{
+    max-width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, auto));
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.box .box_img{
+    width: 100%;
+    height: 270px;
+}
+
+.box .box_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box .box_img img:hover {
+    transform: translateY(-10px);
+    transition: 0.2s all linear;
+}
+
+.box h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.box span{
+    font-size: 13px;
+}

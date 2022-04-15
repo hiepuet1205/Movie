@@ -30,7 +30,7 @@ const MoviePage = () => {
 
     useEffect(() => {
         loadedMovie()
-    }, [])
+    }, [params])
 
     return (
         <Base>

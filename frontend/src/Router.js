@@ -13,6 +13,7 @@ import UserDashboard from './user/UserDashboard'
 import Main from './core/Main'
 import MoviePage from './core/MoviePage'
 import PersonPage from './core/PersonPage'
+import AllMoviesPage from './core/AllMoviesPage'
 
 export default function Router() {
   return (
@@ -24,6 +25,7 @@ export default function Router() {
             <Route path="/signin" exact element={<Signin />}/>
             <Route element={<ProtectRoutes/>}>
                 <Route path="/" exact element={<Main />}/>
+                <Route path="/allmovies" exact element={<AllMoviesPage />}/>
                 <Route path="/movie/:id" exact element={<MoviePage />}/>
                 <Route path="/profile/:id" exact element={<PersonPage />}/>
                 <Route path="/user/dashbroad" exact element={<UserDashboard />}/>

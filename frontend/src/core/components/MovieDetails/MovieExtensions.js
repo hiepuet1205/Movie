@@ -1,5 +1,5 @@
 import { memo, useState, useEffect, Fragment } from 'react';
-import { getCategory } from '../../helper/coreApiCalls'
+import { getCategorys } from '../../helper/coreApiCalls'
 import { addItemToCart } from '../../helper/cartHelper'
 
 import Notification from '../Notification/Notification'
@@ -30,7 +30,7 @@ const MovieExtensions = props => {
         }
 
         if(!cs){
-            getCategory()
+            getCategorys()
             .then(data => {
                 if(data.error){
                     console.error(data.error)

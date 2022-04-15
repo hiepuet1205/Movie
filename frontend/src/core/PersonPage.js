@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getPerson } from './helper/coreApiCalls';
+import { getPersons } from './helper/coreApiCalls';
 
 import Base from './Base';
 import Person from './components/Person/Person';
@@ -21,7 +21,7 @@ const PersonPage = () => {
         }
 
         if(!p){
-            getPerson()
+            getPersons()
             .then(data => {
                 if(data.error){
                     console.error(data.error)
@@ -40,7 +40,7 @@ const PersonPage = () => {
 
     useEffect(() => {
         loadedPerson()
-    }, [])
+    }, [params])
 
     return (
         <Base>

@@ -34,7 +34,7 @@ const Main = () => {
     }, [])
 
     return (
-        <Base>
+        <Base movies={movies}>
             <Home movies={movies}/>
             <Movies movies={movies}/>
             <ComingSoon movies={movies}/>

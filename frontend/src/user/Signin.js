@@ -19,8 +19,6 @@ const Signin = () => {
         didRedirect: false,
     })
 
-    // const navigate = useNavigate();
-
     const { name, email, password, error, success, loading, didRedirect } = values 
 
     const handleChange = (key) => {

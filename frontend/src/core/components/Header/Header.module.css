@@ -91,6 +91,7 @@ header {
     border-radius: 0.5rem;
     border: none;
     font-size: 1rem;
+    margin-left: 10px;
 }
 
 .btn:hover{
@@ -119,6 +120,62 @@ header {
 
 .navbar_account_active{
     display: flex;
+}
+
+.search {
+    padding: 5px 15px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ff2c1f;
+    position: relative;
+}
+
+.search i{
+    color: #fff;
+    line-height: 30px;
+    font-size: 1rem;
+}
+
+.search_main{
+    position: absolute;
+    right: 150px;
+    top: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: none;
+    z-index: 1;
+}
+
+.search_main ul li{
+    padding: 4px 0;
+    border-bottom: 1px solid #000;
+}
+
+.search_main ul a{
+    color: #000;
+}
+
+.search_main li:hover a{
+    color: #ff2c1f;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+}
+
+.search_main input{
+    width: 300px;
+    height: 40px;
+}
+
+.search_main input:focus{
+    outline: none;
+}
+
+.search_main .btn{
+    border: none;
 }
 
 @media (max-width: 991px) {
@@ -179,6 +236,15 @@ header {
     .navbar_account{
         top: 90%;
         right: 4%;
+    }
+
+    .search_main{
+        right: 0;
+        width: 100%;
+    }
+
+    .search_main input{
+        width: 100%;
     }
 }
 

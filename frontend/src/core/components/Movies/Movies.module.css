@@ -15,10 +15,3 @@
     gap: 1rem;
     margin-top: 2rem;
 }
-
-/* responsive */
-@media (max-width: 991px) {
-    section{
-        padding: 50px 4%;
-    }
-}

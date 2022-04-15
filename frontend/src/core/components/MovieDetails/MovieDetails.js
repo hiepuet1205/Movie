@@ -1,6 +1,6 @@
 import { memo, useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { getPerson } from '../../helper/coreApiCalls'
+import { getPersons } from '../../helper/coreApiCalls'
 
 import classes from './MovieDetails.module.css';
 
@@ -24,7 +24,7 @@ const MovieDetails = props => {
         }
 
         if(!d){
-            getPerson()
+            getPersons()
             .then(data => {
                 if(data.error){
                     console.error(data.error)
@@ -59,7 +59,7 @@ const MovieDetails = props => {
         }
 
         if(!s){
-            getPerson()
+            getPersons()
             .then(data => {
                 if(data.error){
                     console.error(data.error)
@@ -96,7 +96,7 @@ const MovieDetails = props => {
         }
 
         if(!w){
-            getPerson()
+            getPersons()
             .then(data => {
                 if(data.error){
                     console.error(data.error)

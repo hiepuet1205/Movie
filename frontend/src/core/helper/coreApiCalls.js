@@ -10,7 +10,7 @@ export const getMovies = () => {
     .catch((err) => console.log(err));                        
 };
 
-export const getCategory = () => {
+export const getCategorys = () => {
     return fetch(`${API}category/`, { 
         method: "GET" 
     })
@@ -20,7 +20,7 @@ export const getCategory = () => {
     .catch((err) => console.log(err)); 
 }
 
-export const getPerson = () => {
+export const getPersons = () => {
     return fetch(`${API}person/`, { 
         method: "GET" 
     })

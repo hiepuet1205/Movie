@@ -1,12 +1,11 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
-import { getCategory } from '../../helper/coreApiCalls'
+import { getCategorys } from '../../helper/coreApiCalls'
 
 import classes from './MovieCard.module.css'
 
 const MovieCard = (props) => {
     const movie = props.movie
-    const category_id = movie.category[0].slice(-2,-1)
 
     const [category, setCategory] = useState()
 
@@ -14,11 +13,11 @@ const MovieCard = (props) => {
         let c
 
         if(typeof window.localStorage !== 'undefined'){
-            c = JSON.parse(localStorage.getItem('categorys/' + category_id))
+            c = JSON.parse(localStorage.getItem(movie.category[0]))
         }
 
         if(!c){
-            getCategory()
+            getCategorys()
             .then(data => {
                 if(data.error){
                     console.error(data.error)
