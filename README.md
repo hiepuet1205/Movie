@@ -16,11 +16,11 @@
 
 ## THÀNH VIÊN
 
-- Đỗ Lê Mạnh Hùng - 20020322 - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/769cef54e50deb80008f7b430e9cd422ca9be028/B%C3%A1o%20c%C3%A1o%20c%C3%A1%20nh%C3%A2n.md)
-- Nguyễn Quang Minh - 20020146 - [Báo cáo cá nhân]()
-- Nguyễn Ngọc Hiệp - 20021349 - [Báo cáo cá nhân]()
-- Nguyễn Tuấn Nam - 20021398 - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/2da7505dd2690f5334fbb621c493d5d5fddf65ec/CNPM_Nguy%E1%BB%85n%20Tu%E1%BA%A5n%20Nam_Nh%C3%B3m%2006.md)
-- Ngô Văn Minh Thắng - 20020155 - [Báo cáo cá nhân]()
+- Đỗ Lê Mạnh Hùng - _20020322_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/769cef54e50deb80008f7b430e9cd422ca9be028/B%C3%A1o%20c%C3%A1o%20c%C3%A1%20nh%C3%A2n.md)
+- Nguyễn Quang Minh - _20020146_ - [Báo cáo cá nhân]()
+- Nguyễn Ngọc Hiệp - _20021349_ - [Báo cáo cá nhân]()
+- Nguyễn Tuấn Nam - _20021398_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/2da7505dd2690f5334fbb621c493d5d5fddf65ec/CNPM_Nguy%E1%BB%85n%20Tu%E1%BA%A5n%20Nam_Nh%C3%B3m%2006.md)
+- Ngô Văn Minh Thắng - _20020155_ - [Báo cáo cá nhân]()
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -28,7 +28,7 @@
 
 **Tên sản phẩm:** *PhimmoiUET*
 
-**Đối tượng hướng đến:** *Sản phẩm hướng đến tất cả mọi người.*
+**Đối tượng hướng đến:** *Sản phẩm hướng đến tất cả mọi người, đặc biệt dành cho các bạn sinh viên UET từ các nơi khác tới nói riêng và sinh viên ĐHQGHN nói chung.*
 
 **Lý do tạo nên sản phẩm:** *Hiện nay, với sự phát triển nhanh chóng của xã hội, nhu cầu giải trí của con người ngày càng cao hơn, trong đó có xem phim. Tuy vậy, việc ra rạp đặt phim đôi khi gây ra nhiều bất tiện như không có phương tiện hay hết vé xem phim, ... Thấu hiểu những khó khăn đó, đặc biệt là các bạn sinh viên từ các tỉnh khác về Hà Nội để học tập, vui chơi giải trí, nhưng đôi khi thời gian và điều kiện không cho phép, nhóm 06 chúng em đã tạo nên sản phẩm web đặt vé xem phim này với mục đích giúp mọi người tiết kiệm được thời gian và công sức, chúng ta không cần phải đi ra ngoài đặt vé trong những ngày nóng nực của mùa hè, đặc biệt là thời điểm hiện tại giá xăng đang rất cao, chưa kể có những bạn không có phương tiện và thời gian để đi. Sản phẩm hướng đặc biệt tới các bạn sinh viên của UET và ĐHQGHN nói riêng và toàn thể mọi người nói chung. Rất mong mọi người sẽ đón nhận nó ^^*
 
@@ -74,28 +74,32 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Kế hoạch nhóm cụ thể
+## Áp dụng kiến thức về quy trình phát triển Scrum vào dự án nhóm:
 
-- 13/03/2022: Bắt đầu tiến hành sản phẩm.
-- 10/04/2022: Hoàn thành tạm thời sản phẩm.
-- 11/04/2022 - hiện tại: Kiểm thử sản phẩm và viết báo cáo công việc.
+- Sprint 1 | 13/03 - 27/03 : Lên ý tưởng cho dự án, phác thảo ban đầu cho dự án và tìm hiểu các công nghệ cần dùng cho dự án.
+- Sprint 2 | 28/03 - 10/04 :  Bắt đầu tiến hành sản phẩm, phân chia công việc cho mỗi cá nhân trong nhóm.
+- Sprint 3 | 11/04 - 24/04: Hoàn thành tạm thời sản phẩm, cả nhóm tiến hành kiểm thử.
+- Sprint 4 | 25/04/2022 - hiện tại: Thu thập tài liệu, viết báo cáo và tiến hành demo sản phẩm.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Vai trò từng thành viên
 
-- Nguyễn Ngọc Hiệp: Front-end Developer - (20%)
-- Nguyễn Tuấn Nam: Front-end Developer - (20%)
-- Ngô Văn Minh Thắng: Front-end Developer - (20%)
-- Nguyễn Quang Minh: Thiết kế cơ sở dữ liệu - (20%)
-- Đỗ Lê Mạnh Hùng: Thiết kế dữ liệu phim và kiểm thử - (20%)
+- *Nguyễn Ngọc Hiệp*: Front-end Developer - (20%)
+- _Nguyễn Tuấn Nam_: Front-end Developer - (20%)
+- _Ngô Văn Minh Thắng_: Front-end Developer - (20%)
+- _Nguyễn Quang Minh_: Thiết kế cơ sở dữ liệu - (20%)
+- _Đỗ Lê Mạnh Hùng_: Thiết kế dữ liệu phim và kiểm thử - (20%)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Liên kết tham khảo
 
-- [các file front-end lấy icon ở đây](https://boxicons.com/)
-- [Vẽ sơ đồ cơ sở dữ liệu](https://erdplus.com/)
-- [Dữ liệu về phim](https://www.imdb.com/?ref_=nv_home)
+- [Icons for front-end](https://boxicons.com/)
+- [Draw CSDL](https://erdplus.com/)
+- [Film Data ](https://www.imdb.com/?ref_=nv_home)
 - [Tham khảo](https://github.com/facebook/create-react-app)
 - [Tham khảo](https://www.wikimedia.org/)
+- [Tham khảo](https://tienminhvy.com/hoc-tap/gioi-thieu-ve-html5/)
+- [Tham khảo](https://gc0904g6.wordpress.com/2014/04/03/gioi-thieu-css-3/)
+- [Tham khảo](https://jobs.hybrid-technologies.vn/blog/cac-quy-trinh-phat-trien-phan-mem/#21_Mo_hinh_thac_nuoc)
