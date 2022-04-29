@@ -17,7 +17,7 @@
 ## THÀNH VIÊN
 
 - Đỗ Lê Mạnh Hùng - _20020322_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/769cef54e50deb80008f7b430e9cd422ca9be028/B%C3%A1o%20c%C3%A1o%20c%C3%A1%20nh%C3%A2n.md)
-- Nguyễn Quang Minh - _20020146_ - [Báo cáo cá nhân]()
+- Nguyễn Quang Minh - _20020146_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/4216f2d557487f52583a78077c9e4a481457146c/Nh%C3%B3m%2006%20-%20Nguy%E1%BB%85n%20Quang%20Minh.md)
 - Nguyễn Ngọc Hiệp - _20021349_ - [Báo cáo cá nhân]()
 - Nguyễn Tuấn Nam - _20021398_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/2da7505dd2690f5334fbb621c493d5d5fddf65ec/CNPM_Nguy%E1%BB%85n%20Tu%E1%BA%A5n%20Nam_Nh%C3%B3m%2006.md)
 - Ngô Văn Minh Thắng - _20020155_ - [Báo cáo cá nhân]()
