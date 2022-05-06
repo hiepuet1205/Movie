@@ -93,6 +93,12 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Báo cáo sản phẩm
+                        
+   [Click here](https://docs.google.com/document/d/1DRPeFX_h7-ul2MFgwT-dNL6u4Mp4Hdm8NatMjZZ2mQg/edit?usp=sharing)
+
+--- 
+
 ## Liên kết tham khảo
 
 - [Icons for front-end](https://boxicons.com/)
