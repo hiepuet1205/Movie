@@ -47,6 +47,7 @@ const MovieCard = (props) => {
                 </div>
                 <h3>{movie.originalTitle}</h3>
                 <span>{movie.totalTime} min | {category && category.name}</span>
+                <span>Price: {movie.price}</span>
             </div>
         </Link>
     )

@@ -67,6 +67,7 @@ export const signout = (next) => {
 
     if(typeof window.localStorage !== 'undefined'){
         localStorage.removeItem('jwt')
+        localStorage.removeItem('cart')
 
         return fetch(`${API}user/logout/${user_id}/`, {
             method: 'GET',

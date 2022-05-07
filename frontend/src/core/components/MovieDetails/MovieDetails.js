@@ -126,6 +126,10 @@ const MovieDetails = props => {
         <div className={classes.movie_details}>
             <div>{props.Description}</div>
             <div>
+                <h4>Price</h4>
+                {director && <p>{movie.price}</p>}
+            </div>
+            <div>
                 <h4>Director</h4>
                 {director && <Link to={"/profile/" + director.id}>{director.name}</Link>}
             </div>
