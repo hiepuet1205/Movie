@@ -26,11 +26,11 @@
 
 ## ĐỀ TÀI NHÓM
 
-**Tên sản phẩm:** *PhimmoiUET*
+**Tên sản phẩm:** _PhimmoiUET_
 
-**Đối tượng hướng đến:** *Sản phẩm hướng đến tất cả mọi người, đặc biệt dành cho các bạn sinh viên UET từ các nơi khác tới nói riêng và sinh viên ĐHQGHN nói chung.*
+**Đối tượng hướng đến:** _Sản phẩm hướng đến tất cả mọi người, đặc biệt dành cho các bạn sinh viên UET từ các nơi khác tới nói riêng và sinh viên ĐHQGHN nói chung._
 
-**Lý do tạo nên sản phẩm:** *Hiện nay, với sự phát triển nhanh chóng của xã hội, nhu cầu giải trí của con người ngày càng cao hơn, trong đó có xem phim. Tuy vậy, việc ra rạp đặt phim đôi khi gây ra nhiều bất tiện như không có phương tiện hay hết vé xem phim, ... Thấu hiểu những khó khăn đó, đặc biệt là các bạn sinh viên từ các tỉnh khác về Hà Nội để học tập, vui chơi giải trí, nhưng đôi khi thời gian và điều kiện không cho phép, nhóm 06 chúng em đã tạo nên sản phẩm web đặt vé xem phim này với mục đích giúp mọi người tiết kiệm được thời gian và công sức, chúng ta không cần phải đi ra ngoài đặt vé trong những ngày nóng nực của mùa hè, đặc biệt là thời điểm hiện tại giá xăng đang rất cao, chưa kể có những bạn không có phương tiện và thời gian để đi. Sản phẩm hướng đặc biệt tới các bạn sinh viên của UET và ĐHQGHN nói riêng và toàn thể mọi người nói chung. Rất mong mọi người sẽ đón nhận nó ^^*
+**Lý do tạo nên sản phẩm:** _Hiện nay, với sự phát triển nhanh chóng của xã hội, nhu cầu giải trí của con người ngày càng cao hơn, trong đó có xem phim. Tuy vậy, việc ra rạp đặt phim đôi khi gây ra nhiều bất tiện như không có phương tiện hay hết vé xem phim, ... Thấu hiểu những khó khăn đó, đặc biệt là các bạn sinh viên từ các tỉnh khác về Hà Nội để học tập, vui chơi giải trí, nhưng đôi khi thời gian và điều kiện không cho phép, nhóm 06 chúng em đã tạo nên sản phẩm web đặt vé xem phim này với mục đích giúp mọi người tiết kiệm được thời gian và công sức, chúng ta không cần phải đi ra ngoài đặt vé trong những ngày nóng nực của mùa hè, đặc biệt là thời điểm hiện tại giá xăng đang rất cao, chưa kể có những bạn không có phương tiện và thời gian để đi. Sản phẩm hướng đặc biệt tới các bạn sinh viên của UET và ĐHQGHN nói riêng và toàn thể mọi người nói chung. Rất mong mọi người sẽ đón nhận nó ^^_
 
 **CHỨC NĂNG CHÍNH CỦA PHẦN MỀM:**
 
@@ -62,19 +62,45 @@
 - Gõ `python manange.py runserver`
 - Mở trình duyệt, nhập <http://127.0.0.1:8000/admin>
 - Sử dụng ID hiepvbhpnbk@gmail.com và pass hiepuetnbk để login
+- Trang web quản lý hiện ra, mọi người có thể thấy các mục quản lý phim, diễn viên, danh mục, người dùng,...
+
+![Backend landing page](demo_pics/Screenshot%202022-05-07%20214510.png)
+
+- Người dùng có thể sửa đổi các thông tin liên quan trong từng mục riêng
+
+![edit details](demo_pics/Screenshot%202022-05-07%20214712.png)
 
 ***2. Frontend***
 
 - Mở commandline, chuyển tới thư mục btl_cnpm/frontend
 - Gõ `npm start`
 - Sử dụng ID hiepvbhpnbk@gmail.com và pass hiepuetnbk để login
-- Ở giao diện web, chọn những phim mới, phim hay được đề xuất trên web, nếu muốn tìm phim cụ thể, nhập tên phim vào thanh tìm kiếm của trang web.
+- Trang chủ hiện ra, người dùng có thể nhìn thấy những bộ phim đang chiếu và sắp chiếu 
+
+![Frontend landing page](demo_pics/Screenshot%202022-05-08%20122640.png)
+
+- Từ tài khoản cá nhân, người dùng có thể truy cập các tính năng quản lý tài khoản, giỏ hàng cá nhân, đơn đặt hàng và đăng xuất
+
+![Account management](demo_pics/Screenshot%202022-05-08%20123302.png)
+
+- Ngoài trang chủ, người dùng có thể xem chi tiết về từng bộ phim hoặc diễn viên yêu thích
+
+![Movie details](demo_pics/Screenshot%202022-05-08%20123610.png)
+
+![Actor details](demo_pics/Screenshot%202022-05-08%20123627.png)
+
+- Người dùng có thể đặt bộ phim mình muốn sử dụng nút Book Now và thanh toán trong giỏ hàng
+
+![Booking](demo_pics/Screenshot%202022-05-08%20134135.png)
+
+![Cart](demo_pics/Screenshot%202022-05-08%20134427.png)
+
 - Tận hưởng phim
 - Tìm thêm [tại đây](https://github.com/hiepuet1205/btl_cnpm/blob/216d46cab7c60234f1f6092c88f4e9c78ad0dc6b/frontend/README.md)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Áp dụng kiến thức về quy trình phát triển Scrum vào dự án nhóm:
+## Áp dụng kiến thức về quy trình phát triển Scrum vào dự án nhóm
 
 - Sprint 1 | 13/03 - 27/03 : Lên ý tưởng cho dự án, phác thảo ban đầu cho dự án và tìm hiểu các công nghệ cần dùng cho dự án.
 - Sprint 2 | 28/03 - 10/04 :  Bắt đầu tiến hành sản phẩm, phân chia công việc cho mỗi cá nhân trong nhóm.
@@ -85,7 +111,7 @@
 
 ## Vai trò từng thành viên
 
-- *Nguyễn Ngọc Hiệp*: Front-end Developer - (20%)
+- _Nguyễn Ngọc Hiệp_: Front-end Developer - (20%)
 - _Nguyễn Tuấn Nam_: Front-end Developer - (20%)
 - _Ngô Văn Minh Thắng_: Front-end Developer - (20%)
 - _Nguyễn Quang Minh_: Thiết kế cơ sở dữ liệu - (20%)
@@ -94,16 +120,16 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Báo cáo sản phẩm
-                        
+
    [Click here](https://docs.google.com/document/d/1DRPeFX_h7-ul2MFgwT-dNL6u4Mp4Hdm8NatMjZZ2mQg/edit?usp=sharing)
 
---- 
+---
 
 ## Liên kết tham khảo
 
 - [Icons for front-end](https://boxicons.com/)
 - [Draw CSDL](https://erdplus.com/)
-- [Film Data ](https://www.imdb.com/?ref_=nv_home)
+- [Film Data](https://www.imdb.com/?ref_=nv_home)
 - [Tham khảo](https://github.com/facebook/create-react-app)
 - [Tham khảo](https://www.wikimedia.org/)
 - [Tham khảo](https://tienminhvy.com/hoc-tap/gioi-thieu-ve-html5/)
