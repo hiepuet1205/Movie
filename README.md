@@ -2,7 +2,7 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# BÁO CÁO MÔ TẢ SẢN PHẨM
+# BÁO CÁO MÔ TẢ DỰ ÁN
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -51,16 +51,16 @@
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Hướng dẫn sử dụng sản phẩm
+## Hướng dẫn cài đặt và sử dụng sản phẩm
 
 - Clone mã nguồn trên github.
 
-***1.Backend***
+***1. Backend***
 
-- Mở commandline, chuyển tới thư mục btl_cnpm/backend
-- Gõ `python manange.py runserver`
+- Mở commandline, chuyển tới thư mục btl_cnpm/backend bằng câu lệnh "cd (source)".
+- Gõ `python manange.py runserver` 
 - Mở trình duyệt, nhập <http://127.0.0.1:8000/admin>
-- Sử dụng ID hiepvbhpnbk@gmail.com và pass hiepuetnbk để login
+- Sử dụng ID hiepvbhpnbk@gmail.com và pass _hiepuetnbk_ để login
 - Trang web quản lý hiện ra, mọi người có thể thấy các mục quản lý phim, diễn viên, danh mục, người dùng,...
 
 ![Backend landing page](demo_pics/Screenshot%202022-05-07%20214510.png)
@@ -71,10 +71,10 @@
 
 ***2. Frontend***
 
-- Mở commandline, chuyển tới thư mục btl_cnpm/frontend
-- Gõ `npm start`
-- Sử dụng ID hiepvbhpnbk@gmail.com và pass hiepuetnbk để login
-- Trang chủ hiện ra, người dùng có thể nhìn thấy những bộ phim đang chiếu và sắp chiếu 
+- Mở commandline, chuyển tới thư mục btl_cnpm/frontend bằng câu lệnh "cd (source)".
+- Gõ `npm start` 
+- Sử dụng ID hiepvbhpnbk@gmail.com và pass _hiepuetnbk_ để login.
+- Trang chủ hiện ra, người dùng có thể nhìn thấy những bộ phim đang chiếu và sắp chiếu.
 
 ![Frontend landing page](demo_pics/Screenshot%202022-05-08%20122640.png)
 
@@ -94,13 +94,11 @@
 
 ![Cart](demo_pics/Screenshot%202022-05-08%20134427.png)
 
-- Tận hưởng phim
-- Tìm thêm [tại đây](https://github.com/hiepuet1205/btl_cnpm/blob/216d46cab7c60234f1f6092c88f4e9c78ad0dc6b/frontend/README.md)
+-  [Tìm hiểu thêm](https://github.com/hiepuet1205/btl_cnpm/blob/216d46cab7c60234f1f6092c88f4e9c78ad0dc6b/frontend/README.md)
 
------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------
 
-## Áp dụng kiến thức về quy trình phát triển Scrum vào dự án nhóm
-
+## Quy trình phát triển Scrum
 - Sprint 1 | 13/03 - 27/03 : Lên ý tưởng cho dự án, phác thảo ban đầu cho dự án và tìm hiểu các công nghệ cần dùng cho dự án.
 - Sprint 2 | 28/03 - 10/04 :  Bắt đầu tiến hành sản phẩm, phân chia công việc cho mỗi cá nhân trong nhóm.
 - Sprint 3 | 11/04 - 24/04: Hoàn thành tạm thời sản phẩm, cả nhóm tiến hành kiểm thử.
