@@ -16,11 +16,11 @@
 
 ## THÀNH VIÊN
 
-- Đỗ Lê Mạnh Hùng - _20020322_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/15535daf03ac0ff72686aebf963dbbd6cb0c2f42/Nh%C3%B3m%2006%20-%20%C4%90%E1%BB%97%20L%C3%AA%20M%E1%BA%A1nh%20H%C3%B9ng.md)
-- Nguyễn Quang Minh - _20020146_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/4216f2d557487f52583a78077c9e4a481457146c/Nh%C3%B3m%2006%20-%20Nguy%E1%BB%85n%20Quang%20Minh.md)
-- Nguyễn Ngọc Hiệp - _20021349_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/4edab81956d5ef4b5c8e422d93da0106317ae2e3/Nh%C3%B3m%2006%20-%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20Hi%E1%BB%87p.md)
-- Nguyễn Tuấn Nam - _20021398_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/2da7505dd2690f5334fbb621c493d5d5fddf65ec/CNPM_Nguy%E1%BB%85n%20Tu%E1%BA%A5n%20Nam_Nh%C3%B3m%2006.md)
-- Ngô Văn Minh Thắng - _20020155_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/04357bd7b8c6e7c18c2b257db985493f8009ffa2/Nh%C3%B3m%2006%20-%20Ng%C3%B4%20V%C4%83n%20Minh%20Th%E1%BA%AFng.md)
+- Đỗ Lê Mạnh Hùng - _20020322_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/6e6787e709a31850b67ae603a885da007915c959/Nh%C3%B3m%2006%20-%20%C4%90%E1%BB%97%20L%C3%AA%20M%E1%BA%A1nh%20H%C3%B9ng.md)
+- Nguyễn Quang Minh - _20020146_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/6e6787e709a31850b67ae603a885da007915c959/Nh%C3%B3m%2006%20-%20Nguy%E1%BB%85n%20Quang%20Minh.md)
+- Nguyễn Ngọc Hiệp - _20021349_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/6e6787e709a31850b67ae603a885da007915c959/Nh%C3%B3m%2006%20-%20Nguy%E1%BB%85n%20Ng%E1%BB%8Dc%20Hi%E1%BB%87p.md)
+- Nguyễn Tuấn Nam - _20021398_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/6e6787e709a31850b67ae603a885da007915c959/Nh%C3%B3m%2006%20-%20Nguy%E1%BB%85n%20Tu%E1%BA%A5n%20Nam.md)
+- Ngô Văn Minh Thắng - _20020155_ - [Báo cáo cá nhân](https://github.com/dolemanhhung/CNPM/blob/6e6787e709a31850b67ae603a885da007915c959/Nh%C3%B3m%2006%20-%20Ng%C3%B4%20V%C4%83n%20Minh%20Th%E1%BA%AFng.md)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
