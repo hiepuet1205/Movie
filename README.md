@@ -58,7 +58,7 @@
 ***1. Backend***
 
 - Mở commandline, chuyển tới thư mục btl_cnpm/backend bằng câu lệnh "cd (source)".
-- Gõ `python manange.py runserver` 
+- Gõ `python manage.py runserver` 
 - Mở trình duyệt, nhập <http://127.0.0.1:8000/admin>
 - Sử dụng ID hiepvbhpnbk@gmail.com và pass _hiepuetnbk_ để login
 - Trang web quản lý hiện ra, mọi người có thể thấy các mục quản lý phim, diễn viên, danh mục, người dùng,...
