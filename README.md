@@ -99,10 +99,10 @@
 ------------------------------------------------------------------------------------------------
 
 ## Quy trình phát triển Scrum
-- Sprint 1 | 13/03 - 27/03 : Lên ý tưởng cho dự án, phác thảo ban đầu cho dự án và tìm hiểu các công nghệ cần dùng cho dự án.
-- Sprint 2 | 28/03 - 10/04 :  Bắt đầu tiến hành sản phẩm, phân chia công việc cho mỗi cá nhân trong nhóm.
-- Sprint 3 | 11/04 - 24/04: Hoàn thành tạm thời sản phẩm, cả nhóm tiến hành kiểm thử.
-- Sprint 4 | 25/04/2022 - hiện tại: Thu thập tài liệu, viết báo cáo và tiến hành demo sản phẩm.
+- Sprint 1 | Lên ý tưởng cho dự án, phác thảo ban đầu cho dự án và tìm hiểu các công nghệ cần dùng cho dự án.
+- Sprint 2 | Bắt đầu tiến hành sản phẩm, phân chia công việc cho mỗi cá nhân trong nhóm.
+- Sprint 3 | Hoàn thành tạm thời sản phẩm, cả nhóm tiến hành kiểm thử.
+- Sprint 4 | Thu thập tài liệu, viết báo cáo và tiến hành demo sản phẩm.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
