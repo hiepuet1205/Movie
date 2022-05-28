@@ -118,7 +118,7 @@
 
 ## Báo cáo sản phẩm
 
-   [Click here]([https://docs.google.com/document/d/1DRPeFX_h7-ul2MFgwT-dNL6u4Mp4Hdm8NatMjZZ2mQg/edit?usp=sharing](https://drive.google.com/file/d/1HkbGZTTAuPx8AGoM9A1JmmplYY_rr6Pl/view?usp=sharing))
+   [Click here](https://drive.google.com/file/d/1HkbGZTTAuPx8AGoM9A1JmmplYY_rr6Pl/view?usp=sharing)
 
 ---
 
